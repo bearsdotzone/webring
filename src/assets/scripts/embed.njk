@@ -7,7 +7,7 @@ class WebringBanner extends HTMLElement {
 
         this.ringtitle = '{{ meta.title }}';
         this.url = '{{ meta.url }}';
-        this.image = this.url + '/assets/images/{{ meta.image }}';
+        this.image = '{{ meta.image }}';
         this.membercount = {{ members | length}};
 
         this.shadowObj = this.attachShadow({ mode: 'open' });
