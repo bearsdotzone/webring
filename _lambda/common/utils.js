@@ -20,7 +20,7 @@ export const getNext = url => {
         const nextIndex = index < members.length - 1 ? index + 1 : 0
         return members[nextIndex]
     }
-    console.log('referrer position not found.')
+    console.log('referrer position not found.' + url)
     return null
 }
 
